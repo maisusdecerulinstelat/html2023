@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        <div>
+                <h1>Formular de inregistrare</h1>
+        </div>
+
+        <form action="" method="post" enctype="multipart/form-data">
+                <label for="oras">Selecteaza orasul dorit</label>
+                <select name="oras" id="oras">
+                        <option value="">Selecteaza...</option>
+                        <option value="1">Bucuresti</option>
+                        <option value="2">Bucuresti</option>
+                        <option value="3">Bucuresti</option>
+                        <option value="4">Bucuresti</option>
+                </select><br>
+                <label for="cursuri">Cursurile dorite</label>
+                <select name="cursuri()" id="cursuri" multiple>
+                        <option value="php">PHP</option>
+                        <option value="js">JavaScript</option>
+                        <option value="nodejs">NodeJS</option>
+                </select><br>
+                <label for="mesaj">Mesaj</label>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+                <label for="cv">CV</label>
+                <input type="file" name="document" id="cv"> <br>
+                <fieldset>
+                        <figcaption>Program cursuri</figcaption>
+                        <input type="radio" name="limbaje" id="dimineata" value="dimineata">Dimineata
+                        <input type="radio" name="limbaje" id="pranz" value="pranz">Pranz
+                        <input type="radio" name="limbaje" id="seara" value="seara">Seara                        
+                </fieldset>
+                <br>
+                <input type="checkbox" name="termeni" id="" checked>
+                <input type="checkbox" name="abonat" id="">
+        </form>
+</body>
+</html>

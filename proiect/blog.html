@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML CSS Proiect 2022 - 2023</title>
+        <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
+        <meta name="keywords" content="website, site, CSS, HTML, proeict" />
+        <meta name="author" content="Grigore Ionut">
+        <!-- Favicon-->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+        <link rel='icon' type='image/x-icon' href='./assets/images/favicon.ico' />
+        <!-- CSS  -->
+
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+        <div id="header">
+                <div id="logo">
+                        <div id="logo_text">
+                                <h1><a href="acasa.html">Coffe<span class="logo_colour">Shop</span></a></h1>
+                                <h2>Primul meu proeict.</h2>
+                        </div>
+                </div>
+                <nav id="menubar">
+                        <ul id="menu">
+                                <li><a href="acasa.html">Acasa</a></li>
+                                <li><a href="">Despre noi</a></li>
+                                <li><a href="portofoliu.html">Portofoliu</a></li>
+                                <li class="selected"><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                </nav>
+        </div>
+        <div id="main">
+                <style>
+                        table {
+                                border: 2px red solid;
+                                /border-collapse: collapse;
+                        }
+
+                        table tr td,
+                        table tr th {
+                                border: 1px blue solid;
+                                padding: 10px;
+                        }
+
+                        table tr:nth-child(2n) {
+                                color: brown;
+                                background-color: burlywood;
+                        }
+
+                        table tr:nth-child(2n+1) {
+                                background-color: rgb(red, green, blue);
+                        }
+
+                        table tr:first-child {
+                                background-color: aqua;
+                                color: red;
+                        }
+
+                        table tr:hover {
+                                background-color: palevioletred;
+                                color: green;
+                        }
+                </style>
+                <table>
+                        <tr>
+                                <td>Cafea cu zahar</td>
+                                <td>Cafea fara zahar</td>
+                                <td>Cafea cu lapte si zahar</td>
+                                <td>Nesscafe</td>
+                        </tr>
+                        <tr>
+                                <td>Aromata</td>
+                                <td>Placuta</td>
+                                <td>Rapida</td>
+                                <td>Dimineata</td>
+                        </tr>
+                        <tr>
+                                <td>Fierbinte</td>
+                                <td>Tare buna</td>
+                                <td>Miros deosebit</td>
+                                <td>Pranz</td>
+                        </tr>
+                        <tr>
+                                <td>Imbietoare</td>
+                                <td>Savuroasa</td>
+                                <td>Simplu si eficient</td>
+                                <td>Bine vanduta</td>
+                        </tr>
+                        <tr>
+                                <td>Expresso</td>
+                                <td>Ultimate</td>
+                                <td>2.0</td>
+                                <td>Un deliciu</td>
+                        </tr>
+                </table>
+
+        </div>
+        <footer id="footer">
+                <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
+                <p>Copyright &copy; Nume Prenume | <a href="">HTML5</a> | <a href="">CSS</a> </p>
+        </footer>
+</body>
+
+</html>
